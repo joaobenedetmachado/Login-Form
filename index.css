@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Work+Sans:wght@500&display=swap');
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.login-area {
+    background-color: #191816;
+    height: 100vh;
+    width: 70vh;
+    display: flex; /*CENTRALIZAR NO MEIO DA BOX*/
+    justify-content: center;  /*CENTRALIZAR NO MEIO DA BOX*/
+    align-items: center;  /*CENTRALIZAR NO MEIO DA BOX*/
+}
+
+.background {
+    position: absolute;
+    width: 120.65vh;
+    height: 100vh;
+    left: 700px;
+    top: 0px;
+    
+}
+
+.form-bg {
+    position: absolute;
+    width: 572px;
+    height: 600px;
+    top: 194px;
+    background: #24221F;
+    border-radius: 4px;
+    display: flex; /*CENTRALIZAR NO MEIO DA BOX*/
+    justify-content: center;  /*CENTRALIZAR NO MEIO DA BOX*/
+}
+.log {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 5px;
+    margin-left: -40px;
+}
+.header {
+    position: absolute;
+    width: 394px;
+    height: 104px;
+    top: 49px;
+    margin-left: 0px;
+}
+
+.txt1 {
+    color: #edecf5;
+    position: absolute;
+    left: 30px;
+}
+.txt2 {
+    color: #edecf5;
+    position: absolute;
+    font-size: 12pt;
+    top: 50px;
+    font-weight: 200;
+}
+
+.email {
+    position: absolute;
+    width: 380px;
+    height: 93px;
+    top: 130px;
+}
+
+.txt3 {
+    font-size: 17pt;
+    margin-top: -20px ;
+    color: #edecf5;
+    margin-left: 10px;
+}
+
+.input1 {
+    margin-top: -20px;
+    margin-left: 20px;
+}
+
+.input-email {
+    width: 335px;
+    height: 44px;
+    border: 5px solid #8141e1;
+    border-radius: 9px;
+}
+
+::placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13pt;
+}
+
+.password {
+    position: absolute;
+    width: 380px;
+    height: 93px;
+    top: 240px;
+}
+
+.txt4 {
+    font-size: 17pt;
+    margin-top:-10px ;
+    color: #edecf5;
+    margin-left: 10px;
+}
+
+.input2 {
+    margin-top: -20px;
+    margin-left: 20px;
+}
+
+.input-senha {
+    width: 335px;
+    height: 44px;
+    border: 5px solid #8141e1;
+    border-radius: 9px;
+}
+
+.checkbox {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 350px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13pt;
+    color: #edecf5;
+    margin-left: 10px;
+
+
+}
+  .checkbox input {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    border-radius: 5px;
+  }
+  .checkbox label {
+    position: relative;
+    padding-left: 2.2em;
+    display: inline-block;
+    border-radius: 5px;
+  }
+  .checkbox label::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 1.5em;
+    width: 1.5em;
+    background: #FFF;
+    margin-right: 0.5em;
+    border: 1px solid #999;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    border-radius: 5px;
+  }
+  .checkbox label::after {
+    content: "\2713";
+    position: absolute;
+    top: 50%;
+    left: 0.75em;
+    transform: translate(-50%, -50%);
+    font-size: 1em;
+    color: #FFF;
+    opacity: 0;
+    transition: all 0.2s ease;
+    border-radius: 5px;
+  }
+  .checkbox label:focus::before, .checkbox label:hover::before {
+    background: #DDD;
+  }
+  .checkbox input:checked + label::before {
+    background: #8141e1;
+    border-color: #8141e1;
+  }
+  .checkbox input:checked + label::after {
+    opacity: 1;
+  }
+
+  .esqueci {
+    position: absolute;
+    top: 340px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11pt;
+    color: #edecf5;
+    margin-left: 200px;
+  }
+
+  .esqueci:hover {
+    position: absolute;
+    top: 340px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11pt;
+    color: #8141e1;
+    margin-left: 200px;
+  }
+
+  .button {
+    height: 50px;
+    width: 340px;
+    margin-left: -20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20pt;
+    background-color: #8141e1;
+    border: none;
+    border-radius: 9px;
+  }
+
+  .btn {
+    margin-top: 25px;
+    height: 100px;
+    width: 400px;
+    display: flex; /*CENTRALIZAR NO MEIO DA BOX*/
+    justify-content: center;  /*CENTRALIZAR NO MEIO DA BOX*/
+    align-items: center;  /*CENTRALIZAR NO MEIO DA BOX*/
+    
+  }
+
+  .button:hover {
+    height: 50px;
+    width: 340px;
+    margin-left: -20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20pt;
+    background-color: #4d2983;
+    border: none;
+    border-radius: 9px;
+  }
